@@ -58,6 +58,34 @@
     background: #000;
    
 }
+.links {
+    display: inline-block;
+    color: var(--blue);
+    font-size: 1em;
+    padding: 15px 0;
+  }
+  .links::after {
+    display: block;
+    content: "";
+    width: 0px;
+    height: 3px;
+    margin: 5px 0;
+    background: transparent;
+  }
+  .links:hover::after {
+    animation: border 1s linear forwards;
+  }
+  @keyframes border {
+    0% {
+      background: transparent;
+      width: 0;
+    }
+    100% {
+      background: linear-gradient(90deg, yellow, orange, green, blue);
+      width: 100%;
+    }
+  }
+  
 #headerbannertitle{
     display: flex;
     gap: 20px;
