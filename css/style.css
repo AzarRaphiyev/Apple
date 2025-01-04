@@ -1,0 +1,1450 @@
+:root { --boz: #F2F2F2 }
+:root{  --mavi: #0071e3;}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#firstslider{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 20px;
+    gap: 20px;
+    overflow-x: scroll;
+    scrollbar-width: none;
+  
+}
+#slideritem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+}
+.headersliderp{
+    font-size: 0.7em;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.headersliderspan{
+    color: #bf4800;
+    font-size: 0.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#headerreklam{
+    width: 100%;
+    background-color: var(--boz);
+    padding: 20px ;
+    text-align: center;
+    p{
+        font-size: 1.3em;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+      
+    }
+    a{
+       
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        color: var(--mavi);
+        padding: 16px 0 0 0 ;
+    }
+}
+#headerbanner{
+    width: 100%;
+    padding: 50px;
+    background: #000;
+   
+}
+#headerbannertitle{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+   
+    
+    span{
+        color: #bf4800;
+    font-size: .8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    h6{
+        font: 400 1.1em Arial;
+        margin: 10px;
+        color: #8b887eff;
+    }
+    img{
+        max-width: 250px;
+    }
+    p{
+        font-size: 0.9em;
+        color: #fff;
+        font-weight: 500
+    }
+    button {
+        padding: 10px 25px;
+        color: #fff;
+        background: var(--mavi);
+        border-radius: 30px;
+        font-size: 0.8em;
+        border: none;
+        transition: .3s;
+    }
+    a{
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        color: var(--mavi);
+       
+    }
+}
+
+#headerbannertitle button:hover{
+    box-shadow: 2px 2px 5px #ffffff9a;
+}
+
+#headerbannerimg{
+    height: 50vh;
+
+    background: url(../img/titanium-mobile.jpeg) center/30% no-repeat ;
+}
+#firstsection{
+    padding: 40px 0;
+}
+#firstsectiontitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+ 
+    
+    span{
+        color: #bf4800;
+    font-size: .8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    h6{
+        font: 400 1.1em Arial;
+        margin: 10px 0 0 0;
+        color: #8b887eff;
+    }
+  h2{
+    font: 500 1.8em / 0.8 Arial;
+   
+    font-size: 2.8em;
+  }
+    p{
+        font-size: 0.9em;
+  
+        font-weight: 500
+    }
+    button {
+        padding: 10px 25px;
+        color: #fff;
+        background: var(--mavi);
+        border-radius: 30px;
+        font-size: 0.8em;
+        border: none;
+        transition: .3s;
+    }
+    a{
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        color: var(--mavi);
+       
+    }
+}
+#firstsectiontitle button:hover{
+    box-shadow: 2px 2px 5px #000;
+}
+#firstsectionimg{
+    width: 100%;
+    height: 20vh;
+    background: url(../img/newphoria.jpeg) 50%/contain no-repeat;
+}
+
+#secondsection{
+    gap: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FBFBFB;
+}
+#secondsectiontitle{
+  text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h6{
+        font: 400 1.1em Arial;
+        margin: 10px;
+        color: #000000;
+    }
+  h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1e3791;
+    font-size: 2em;
+    font-weight: 600;
+    margin: 10px 0;
+  }
+    p{
+        font-size: 0.9em;
+  
+        font-weight: 500
+    }
+    button {
+        margin: 10px;
+        padding: 10px 25px;
+        color: #fff;
+        background: var(--mavi);
+        border-radius: 30px;
+        font-size: 0.8em;
+        border: none;
+        transition: .3s;
+    }
+    a{
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        color: var(--mavi);
+       
+    }
+}
+#seconsectionimg{
+    width: 60%;
+    height: 40vh;
+    background: url(../img/lovebg.jpeg) center/contain no-repeat;
+}
+#secondsectiontitle button:hover{
+    box-shadow: 2px 2px 5px #000;
+}
+#thirdsection{
+    padding: 200px 0 30px 0;
+}
+#thirdsectionimg{
+    position: relative;
+    width: 95%;
+    height: 30vh;
+    
+    margin: auto;
+    background: url(../img/applebg12.jpeg) center/cover;
+}
+#thirdsectiontitle{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    top: -70%;
+    left: 50%;
+    transform: translate(-50%,-10%);
+    h4{
+        font: 600 1.4em /  Arial;
+        color: #000000;
+    }
+    h2{
+        font: 500 1.8em / Arial;
+       margin: 10px 0;
+        color: #000000;
+    }
+    a{
+        width: max-content;
+        text-decoration: none;
+        background:none;
+       
+       
+      
+        font-size: 0.8em;
+        color:var(--mavi);
+    }
+}
+
+#fourthsection{
+    padding: 20px 0 ;
+    h1{
+        font-size: 2em;
+        margin: 20px 0;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        text-align: center;
+    }
+    a{
+        display: block;
+        text-align: center;
+        color: var(--mavi);
+        font-size: 1em;
+        padding: 15px 0;
+    }
+}
+.phoneimg{
+    height: 300px;
+}
+.phone{
+    width: 100%;
+    height: 85% ;
+    margin: 20px 0 10px 0;
+}
+.colorphone{
+    
+    margin-bottom: 10px;
+}
+.section4top {
+padding: 20px 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+hr{
+    width: 90%;
+}
+
+}
+.section4span{
+    font-size: 0.8em;
+    color: #bf4800;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section4pricep{
+    margin: 20px 0 10px 0;
+    font-size: 0.8em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section4button{
+    padding: 10px 25px;
+    color: #fff;
+    background: var(--mavi);
+    border-radius: 30px;
+    font-size: 0.8em;
+    border: none;
+    transition: .3s;
+    margin: 10px;
+}
+.section4button:hover{
+    box-shadow: 2px 2px 5px #000;
+}
+.section4a{
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        color: var(--mavi);
+}
+.section4itemmain{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    gap: 40px;
+    hr{
+        width: 80%;
+        
+    }
+}
+.section4itemmain div{
+    text-align: center;
+   
+    img{
+        width: 50px;
+        margin: 10px 0;
+    }
+    p{
+        font: 0.7em / 2 Arial;
+    }
+    h5{
+        font: 600 1.4em Arial;
+    }
+}
+.section4items{
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#fifthsection{
+    padding: 20px 0 ;
+    background: var(--boz);
+    h1{
+        font-size: 2em;
+        margin: 20px 0;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        text-align: center;
+    }
+}
+.fifthsectionmain{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    div{
+        width: 100%;
+        display:flex ;
+        flex-direction: column;
+        align-items:center ;
+        
+        background: #fff;
+        padding: 10px;
+        margin: 15px;
+        text-align: center;
+        h5{
+            padding: 30px;
+            font: 700 1.5em Arial;
+        }
+        a{
+            color: var(--mavi);
+            font-size: 1em;
+            padding: 0 0 15px 0;
+        }
+        p{
+            color: #6e6e73;
+            font-family: Arial, Helvetica, sans-serif;
+           
+        }
+        img{
+            
+            width: 100%;
+        }
+    }
+} 
+.emoji{
+    width: 150px !important;
+}
+.phonecard{
+    width: 200px !important;
+}
+
+#sixsection{
+    padding: 20px 12px ;
+    background:var(--boz);
+}
+.sixsectionmain{
+    background:  url(../img/applebg6.jpeg) center/140% no-repeat;
+    background-color: #FFF;
+   height: 80vh;
+   position: relative;
+}
+.sixsectiontitle{
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    padding: 20px 0 0 0;
+    
+    h1{
+        font-size: 1.5em;
+        margin: 20px 0;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+       
+    }
+    p{
+        font-family: Arial, Helvetica, sans-serif;
+       
+        font-size: 16px;
+    }
+}
+#sevensection{
+    padding: 20px 0;
+    background: var(--boz);
+    h1{
+        font-size: 2em;
+        margin: 20px 0;
+        font-weight: bold;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+.sevensectionmain{
+    background: #fff;
+    
+
+}
+.sevensectiontitle{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    h2{
+        font: 700 1.8em / 0.8 Arial;
+        margin: 20px 0 10px 0;
+    }
+    p{
+        max-width: 300px;
+    margin: 15px auto;
+    font: 1.1em / 1.5 Arial;
+    text-align: center;
+    }
+}
+.sevensectionimg{
+    
+    width: 90%;
+    height: 30vh;
+    margin: auto;
+    background: url(../img/applephones.jpeg) center/70% no-repeat;
+}
+
+
+#eightsection{
+    padding: 20px 0;
+    background: var(--boz);
+    h1{
+        font-size: 2em;
+        margin: 20px 0;
+        font-weight: bold;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+.eightsectionmain{
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.eightsectiontitle{
+    order: -1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    h2{
+        font: 700 1.8em / 0.8 Arial;
+        margin: 20px 0 10px 0;
+    }
+    p{
+        max-width: 300px;
+    margin: 15px auto;
+    font: 1.1em / 1.5 Arial;
+    text-align: center;
+    }
+}
+.eightsectionimg{
+   
+    width: 90%;
+    height: 30vh;
+    margin: auto;
+    background: url(../img/airtag__b81h4czx41yq_medium.jpg) center/70% no-repeat;
+}
+#ninesection{
+    padding: 20px 0 0 0;
+    background: var(--boz);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    a{
+        color: var(--mavi);
+        font-size: 1rem;
+        margin: 30px;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+       
+    }
+}
+.ninesectionmain{
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.ninesectiontitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    h2{
+        margin: 20px 0 0 0;
+        font: 600 1.8em / 0.8 Arial;
+    }
+    p{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+.ninesectionimg{
+    img{
+        width: 100%;
+    }
+}
+#tensection{
+    background: var(--boz);
+}
+.tensectionmain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+}
+.tensectionitem{
+   padding: 10px ;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 8px;
+   h2{
+    font: 600 1.3em Arial;
+   }
+}
+#elevensection{
+    background: var(--boz);
+    padding: 20px;
+    h1{
+        font-size: 2em;
+       margin-bottom: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        text-align: center;
+    }
+}
+.elevensectionmain{
+
+    background: #fff;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+    height: 20vh;
+
+  
+}
+.elevensectiontitle{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+   h2{
+    font-size: 2.8em;
+    font-weight: 400;
+   }
+}
+#twelvesection{
+    background: var(--boz);
+    padding: 10px;
+}
+.twelvesectionmain{
+    display: flex; 
+    flex-direction: column;
+    gap: 10px;
+}
+.twelvesectioncard{
+    background: #FFF;
+   height: 50vh;
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   text-align: center;
+    
+
+    h2{
+        font: 500 1.8em / 0.8 Arial;
+        margin: 20px 0;
+    }
+   
+    img{
+        width: 100%;
+        scale: 1.05;
+    }
+}
+.twelvesectioncardimg1{
+    scale: 1.3 !important;
+}
+
+#thirteenthsection{
+    padding: 20px ;
+    background: var(--boz);
+    h1{
+        font-size: 2em;
+        margin-bottom: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        text-align: center;
+    }
+}
+.thirteenthsectionmain{
+    background-color: #fff;
+    text-align: center;  
+}
+.thirteenthsectiontitle{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+.oneapple{
+    margin-top: 20px;
+    width: 100px;
+}
+#twelfthsection{
+    background: var(--boz);
+    padding: 20px;
+}
+.twelfthsectionmain{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.twelfthsectionitem{
+   
+    background: #090A0E;
+    padding: 30px 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    h2{
+        font: 500 1.8em / 0.8 Arial;
+        margin: 20px 0;
+        color: #fff;
+    }
+    p{
+        color: #fff;
+    }
+    img{
+        width: 100%;
+    }
+
+}
+
+#fifteenthsection{
+    background: var(--boz);
+    padding: 20px;
+}
+.fifteenthsectionmain{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.fifteenthsectionitem{
+   
+    background: #F9F9F9;
+    padding: 30px 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    h2{
+        font: 500 1.8em / 0.8 Arial;
+        margin: 20px 0;
+        color: #000;
+    }
+    p{
+        color: #000;
+    }
+    img{
+        width: 100%;
+    }
+
+}
+#sixteenthsection{
+    background: var(--boz);
+    padding: 20px;
+}
+.sixteenthsectionmain{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.sixteenthsectionitem{
+   
+    background: #F9F9F9;
+    padding: 30px 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    h2{
+        font: 500 1.8em / 0.8 Arial;
+        margin: 20px 0;
+        color: #000;
+    }
+    p{
+        color: #000;
+    }
+    img{
+        width: 100%;
+    }
+
+}
+
+#seventeenthsection{
+    padding: 20px ;
+    background: var(--boz);
+    
+}
+.seventeenthsectionmain{
+    background-color: #FAFAFA;
+    text-align: center;  
+}
+.seventeenthsectiontitle{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  h2{
+    font-size: 1.8em;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+}
+.seventeenthsectionimg{
+    height: 30vh;
+    
+    background: url(../img/research_app.jpg) center/80% no-repeat;
+}
+
+footer{
+    padding: 20px 10px;
+}
+#footerdoc{
+   text-align: justify;
+   p{
+    font-size: 0.9em;
+    color: #0000007a;
+    font-family: Arial, Helvetica, sans-serif;
+}
+   
+}
+#footerdoclist{
+    text-align: justify;
+    padding: 0 0 0 30px;
+    li{
+        font-size: 0.9em;
+        color: #0000007a;
+    }
+    p{
+        font-size: 0.9em;
+        color: #0000007a;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+#footernavmain1{
+    display: none;
+}
+
+#footernavmain2{
+    padding: 20px 0;
+}
+.accordion-item{
+    border: none !important;
+}
+.footernavtop{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+  gap: 30px;
+  a{
+    font-size: 0.9em;
+    color: #828282;
+  }
+     
+}
+.fa-apple{
+    font-size: 2em !important;
+}
+
+#pcnav{
+    display: none;
+}
+.navbg{
+   display: none;
+}
+.navbg2{
+    background: var(--boz);
+    height: 10vh;
+    
+}
+.bg-body-tertiary{
+    background-color: var(--boz) !important;
+}
+#mobilenav{
+    padding: 30px;
+}
+.nav2burger{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    i{
+        font-size: 1.5em;
+    }
+}
+@media only screen and (min-width:768px){
+    .navbg2{
+        display: none;
+    }
+    .navbg{
+        display: inherit;
+        background: var(--boz);
+        height: 10vh;
+        position: relative;
+    }
+    #pcnav{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        menu{
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            li{
+                a{
+                    padding: 5px 0;
+                    font: 600 0.66em Arial;
+                    transition: .1s;
+                }
+            }
+        }
+        i{
+            font-size: 1.5em;
+            margin-right: 15px;
+        }
+    }
+    #mobilenav{
+        display: none;
+    }
+    menu li a:hover{
+        border-bottom: 3px solid #000;
+        
+    }
+    #firstslider{
+        gap: 0;
+    }
+    #headerbannerimg{
+        
+        background: url(../img/titanium-pc.png) center/50% no-repeat ;
+    }
+    #firstsectionimg{
+    width: 100%;
+    height: 60vh;
+    background: url(../img/newphoria.jpeg) 50%/contain no-repeat;
+    }
+
+    #secondsection{
+        
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    #secondsectiontitle{
+      
+        h2{
+         
+          font-size: 3.5em;
+        
+        }
+      }
+     
+      #seconsectionimg{
+        width: 40%;
+        height: 90vh;
+        background: url(../img/lovebg.jpeg) center/contain no-repeat;
+    }
+    #thirdsection{
+        padding: 30px 0;
+    }
+    #thirdsectionimg{
+        position: relative;
+        width: 95%;
+        height: 90vh;
+        border-radius: 30px;
+        margin: auto;
+        background: url(../img/applebg12.jpeg) center/cover;
+    }
+  
+    #thirdsectiontitle{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        top: 50%;
+        left: 15%;
+     
+        
+        h4{
+            font: 600 1.4em / 2 Arial;
+            color: #fff;
+        }
+        h2{
+            font: 500 2.8em / 0.8 Arial;
+            margin: 10px 0;
+            color: #fff;
+        }
+        a{
+            width: max-content;
+            text-decoration: none;
+            background: #ffffffcc;
+            margin: 10px 0;
+            padding: 8px 20px;
+            border-radius: 15px;
+            font-size: 0.8em;
+            color: #000;
+        }
+    }
+    #fourthsection{
+        padding: 20px 0 ;
+        h1{
+            font-size: 3em;
+            margin: 20px 0;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            text-align: center;
+        }
+    }
+    #fifthsection{
+        padding: 20px 0 ;
+        h1{
+            font-size: 3em;
+            margin: 20px 0;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 500;
+            text-align: center;
+        }
+    }
+    .section4items{
+    
+       
+        flex-direction: row;
+        
+    
+    }
+   
+    .fifthsectionmain{
+        display: flex;
+        flex-direction:row;
+        justify-content: center;
+        div{
+            width: 33.33%;
+            height: 60vh;
+            
+            display:flex ;
+            flex-direction: column;
+            align-items:center ;
+            background: #fff;
+            padding: 10px;
+            margin: 15px;
+            text-align: center;
+            h5{
+                padding: 30px;
+                font: 700 1.5em Arial;
+            }
+            a{
+                color: var(--mavi);
+                font-size: 1em;
+                padding: 0 0 15px 0;
+            }
+            p{
+                color: #6e6e73;
+                font-family: Arial, Helvetica, sans-serif;
+               
+            }
+            img{
+               
+                width: 100%;
+            }
+        }
+    } 
+   
+    .phonecard{
+        width: 175px !important;
+    }
+
+    .sixsectiontitle{
+        width: 50%;
+        h1{
+            font-size: 3em;
+        }
+    
+    }
+
+    #sixsection{
+       
+        background: var(--boz);
+    }
+    .sevensectionmain{
+        background: #fff;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 70vh;
+    }
+    .sevensectiontitle{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+       
+        h2{
+            font: 700 2.8em / 0.8 Arial;
+            margin: 20px 0 10px 0;
+        }
+        p{
+            max-width: 300px;
+        margin: 15px auto;
+        font: 1.1em / 1.5 Arial;
+        text-align: center;
+        }
+    }
+    .sevensectionimg{
+        width: 50%;
+        height: 80vh;
+        background: url(../img/applephones.jpeg) 70%/contain no-repeat;
+    }
+    #sevensection{
+        text-align: center;
+        
+        h1{
+            font-size: 3em;
+            width: 30%;
+            margin: auto;
+        }
+    }
+
+    #eightsection{
+        padding: 20px 0;
+        background: var(--boz);
+   
+    }
+    .eightsectionmain{
+        background: #fff;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 60vh
+    }
+    .eightsectiontitle{
+        order: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       width: 40%;
+        h2{
+            font: 700 1.8em / 0.8 Arial;
+            margin: 20px 0 10px 0;
+        }
+        p{
+            max-width: 300px;
+        margin: 15px auto;
+        font: 1.1em / 1.5 Arial;
+        text-align: center;
+        }
+    }
+    .eightsectionimg{
+       
+        width: 60%;
+        height: 30vh;
+        margin: auto;
+        background: url(../img/appleanahtarlik.jpeg) center/90% no-repeat;
+    }
+    .ninesectiontitle{
+        h2{
+            margin: 20px 0 30px 0;
+            font: 600 2.8em / 0.8 Arial;
+        }
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+    }
+    .tensectionmain{
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        justify-content: space-around;
+        gap: 30px;
+        text-align: center;
+    }
+    .tensectionitem{
+       padding: 10px ;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       gap: 8px;
+       width: 33.33%;
+    }
+    #elevensection{
+        h1{
+            font-size: 3em;
+        }
+    }
+    .elevensectionmain{
+      width: 74%;
+       height: 80vh;
+        background: url(../img/ios17.jpg) center/100% no-repeat;
+    }
+    .elevensectiontitle{
+      
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+       h2{
+        font-size: 2.8em;
+        font-weight: 400;
+       }
+    }
+
+    .twelvesectionmain{
+        display: flex; 
+        flex-direction: row;
+        gap: 20px;
+        justify-content: space-between;
+    }
+    .twelvesectioncard{
+        background: #FFF;
+        width: 50%;
+       height: 70vh;
+       overflow: hidden;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-around;
+       text-align: center;
+        gap: 30px;
+    
+        h2{
+            font: 500 2.8em / 0.8 Arial;
+            margin: 20px 0;
+        }
+       
+        img{
+            width: 100%;
+            scale: 1.4;
+           
+        }
+    }
+    .twelvesectioncardimg1{
+        scale: 2 !important;
+    }
+    .thirteenthsectiontitle{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        scale: 1.2;
+        width: 40%;
+      }
+    .thirteenthsectionimg{
+        width: 50%;
+        height: 50vh;
+        background: url(../img/applebg2.jpeg) center/90% no-repeat;
+    }
+    .thirteenthsectionmain{
+        background-color: #fff;
+        text-align: center;  
+        display: flex;
+        flex-direction: row;
+        align-items: center; 
+        
+    }
+    
+    #thirteenthsection{
+        
+        h1{
+            font-size: 3em;
+        }
+    }
+    .twelfthsectionmain{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    .twelfthsectionitem{
+        width: 50%;
+        height: 70vh;
+        background: #090A0E;
+        padding: 20px 10px 0 10px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+        h2{
+            font: 500 2.8em / 0.8 Arial;
+            margin: 10px 0;
+            color: #fff;
+        }
+        p{
+            color: #fff;
+        }
+        img{
+            margin-top: 20px;
+            width: 100%;
+        }
+    
+    }
+    .fifteenthsectionmain{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    .fifteenthsectionitem{
+        width: 50%;
+        height: 70vh;
+        background: #F9F9F9;
+        padding: 20px 10px 0 10px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+        h2{
+            font: 500 2.8em / 0.8 Arial;
+            margin: 10px 0;
+            color: #000;
+        }
+        p{
+            color: #000;
+        }
+        img{
+            margin-top: 20px;
+            width: 100%;
+        }
+    
+    }
+    .sixteenthsectionmain{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    .sixteenthsectionitem{
+        width: 50%;
+        height: 70vh;
+        background: #F9F9F9;
+        padding: 20px 10px 0 10px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+        h2{
+            font: 500 2.8em / 0.8 Arial;
+            margin: 10px 0;
+            color: #000;
+        }
+        p{
+            color: #000;
+        }
+        img{
+            margin-top: 100px;
+            width: 100%;
+            scale: 1.5;
+        }
+    
+    }
+    .seventeenthsectionmain{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    .seventeenthsectiontitle{
+        width: 50%;
+        h2{
+          font-size: 2em;
+      }
+    }
+    .seventeenthsectionimg{
+        width: 50%;
+        height: 50vh;
+        background: url(../img/research_app.jpg) center/80% no-repeat;
+    }
+    #footernavmain1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+    }
+    #footernavmain1 div div{
+        h6{
+            padding: 10px 0px;
+            
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 0.9em;
+            color: #000000bd;
+        }
+        ul li a{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 0.8em;
+            color: #000000bd;
+        }
+    }
+    #footernavmain1>div{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    #footernavmain2{
+        display: none;
+    }
+    .footerp{
+        li a{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 0.8em;
+            padding: 10px;
+            color: #000000bd;
+        }
+    }
+    .footerh6{
+        
+            padding: 10px 0px;
+            
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 0.9em;
+            color: #000000bd;
+        
+    }
+    .footernavtop{
+     
+        margin-bottom: 30px;
+       
+           
+      }
+}
