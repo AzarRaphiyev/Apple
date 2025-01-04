@@ -887,9 +887,7 @@ footer{
 .bg-body-tertiary{
     background-color: var(--boz) !important;
 }
-#mobilenav{
-    padding: 30px;
-}
+
 .nav2burger{
     display: flex;
     flex-direction: row;
