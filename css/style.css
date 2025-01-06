@@ -309,7 +309,7 @@
     height: 300px;
 }
 .phone{
-    width: 100%;
+    width: max-content;
     height: 85% ;
     margin: 20px 0 10px 0;
 }
@@ -1071,6 +1071,10 @@ footer{
         flex-direction: row;
         
     
+    }
+    .phone{
+        width: 100%;
+       
     }
    
     .fifthsectionmain{
